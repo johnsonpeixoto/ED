@@ -11,10 +11,9 @@
 
 int main()
 {
-
 	int i, n, j;
 	scanf("%d", &n);
-	
+
 	double seq[61], temp;
 	seq[0] = 0;
 	seq[1] = 1;
@@ -32,9 +31,6 @@ int main()
 	for (i=0; i<n; i++){
 		printf("Fib(%d) = %.0f\n", indices[i], seq[indices[i]]);
 	}
-
-
-		
 	return 0;
 }
 
